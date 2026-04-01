@@ -19,11 +19,6 @@ This repository is a collection of **Data Structures & Algorithms (DSA) solution
 DSA-Practice/
 ├── arrays/
 ├── strings/
-├── linked-lists/
-├── stacks-queues/
-├── trees-graphs/
-├── dynamic-programming/
-├── greedy/
 └── README.md
 
 

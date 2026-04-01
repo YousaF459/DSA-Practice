@@ -57,3 +57,19 @@ Analyzing time & space complexity
 **⏱️ Complexity:**  
 - Time: O(n)  
 - Space: O(1) (in-place solution)  
+
+
+### 3. 3Sum
+- **File:** `3Sum.py`  
+- **Difficulty:** Medium  
+- **Technique:** Two Pointers ,Sorting
+- **Data Structure:** Array  
+
+**💡 Idea:**  
+- Fix one pointer and use two pointers to find pairs that sum to target  
+- Skip duplicates to avoid repeating triplets  
+- Return all unique triplets
+
+**⏱️ Complexity:**  
+- Time: O(n²)  
+- Space: O(n)

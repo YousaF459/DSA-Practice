@@ -73,3 +73,19 @@ Analyzing time & space complexity
 **⏱️ Complexity:**  
 - Time: O(n²)  
 - Space: O(n)
+
+### 3. MinimumSizeSubarraySum
+- **File:** `MinimumSizeSubarraySum.py`  
+- **Difficulty:** Medium  
+- **Technique:** Two Pointers ,Sliding Window
+- **Data Structure:** Array  
+
+**💡 Idea:**  
+- two Pointer left and right
+- left pointer will make window shrink when sum is >= target
+- right pointer will move forward if sum <= target 
+- we are use two pointer to make a sliding window shrink or expand
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)

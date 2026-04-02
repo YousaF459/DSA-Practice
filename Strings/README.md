@@ -38,7 +38,7 @@ Key techniques used in this folder:
 
 ---
 
-### 3. Find The Index Of The First Occurrence In A String
+### 1. Find The Index Of The First Occurrence In A String
 - **File:** `FindTheIndexOfTheFirstOccurrenceInAString.py`  
 - **Difficulty:** Easy  
 - **Technique:** Sliding Window

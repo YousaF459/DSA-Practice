@@ -89,3 +89,18 @@ Analyzing time & space complexity
 **⏱️ Complexity:**  
 - Time: O(n)  
 - Space: O(1)
+
+### 4.  Single Number
+- **File:** `Single_Number.py`  
+- **Difficulty:** Easy  
+- **Technique:** Two Pointers ,Sliding Window
+- **Data Structure:** Array  
+
+**💡 Idea:**  
+- we have to sort the array then apply two pointers
+- Make a sliding window usign pointers
+- when array will be sorted we have to check two contagious elements
+
+**⏱️ Complexity:**  
+- Time: O(n log n)  
+- Space: O(1)

@@ -32,6 +32,18 @@ def singleNumber(nums):
 
 print(singleNumber(nums))
 
+## Second Solution we Can use XOR so same bits cancel each other
+def singleNumberXOR(nums):
+     
+    result=0
+    for num in nums:
+        result^=num
+
+    return result
+
+print(singleNumberXOR(nums))
+    
+     
 
     
     

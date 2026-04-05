@@ -53,7 +53,7 @@ Key techniques used in this folder:
 - Space: O(1)
 
 
-### 1. Find The Longest_Palindromic_Substring
+### 2. Find The Longest_Palindromic_Substring
 - **File:** `Longest_Palindromic_Substring.py`  
 - **Difficulty:** Medium
 - **Technique:** Sliding Window,Two Pointers

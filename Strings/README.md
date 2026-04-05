@@ -52,3 +52,21 @@ Key techniques used in this folder:
 - Time: O(n*m)  
 - Space: O(1)
 
+
+### 1. Find The Longest_Palindromic_Substring
+- **File:** `Longest_Palindromic_Substring.py`  
+- **Difficulty:** Medium
+- **Technique:** Sliding Window,Two Pointers
+- **Data Structure:** String  
+
+**💡 Idea:**  
+- we have to find longest palindromic string
+- Longest Substring which meets the condition can be anywhere
+- so we should start from anywhere and expand in both left and right directions
+- if left and right pointers are same we can keep expanding
+- for odd length string we start left and right pointers from same index
+- for even length we ahve to start even and odd pointer from differnt index
+
+**⏱️ Complexity:**  
+- Time: O(n²)  
+- Space: O(1)

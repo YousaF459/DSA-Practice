@@ -104,3 +104,18 @@ Analyzing time & space complexity
 **⏱️ Complexity:**  
 - Time: O(n log n)  
 - Space: O(1)
+
+### 4.  Single Number
+- **File:** `Maximum_Average_Subarray_I.py`  
+- **Difficulty:** Medium  
+- **Technique:** Two Pointers ,Sliding Window
+- **Data Structure:** Array  
+
+**💡 Idea:**  
+- we make a sliding window
+- to make time complexity we just add next item and remove previous item when slide is moved
+
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)

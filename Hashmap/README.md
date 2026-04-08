@@ -42,3 +42,18 @@ Analyzing time & space complexity
 **⏱️ Complexity:**  
 - Time: O(n)  
 - Space: O(n)
+
+### 1. Longest_Substring_Without_Repeating_Characters
+- **File:** `Longest_Substring_Without_Repeating_Characters.py`  
+- **Difficulty:** Medium  
+- **Technique:** Hashing , two Pointer , sliding window
+- **Data Structure:** Hashmap
+
+**💡 Idea:**  
+- to not have duplicate we use hashing
+- two pointer to remember index and check for items not to be duplicate
+- shrink or expand the pointers base on condition
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(n)

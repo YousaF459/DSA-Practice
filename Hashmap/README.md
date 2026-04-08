@@ -43,7 +43,7 @@ Analyzing time & space complexity
 - Time: O(n)  
 - Space: O(n)
 
-### 1. Longest_Substring_Without_Repeating_Characters
+### 2. Longest_Substring_Without_Repeating_Characters
 - **File:** `Longest_Substring_Without_Repeating_Characters.py`  
 - **Difficulty:** Medium  
 - **Technique:** Hashing , two Pointer , sliding window
@@ -57,3 +57,17 @@ Analyzing time & space complexity
 **⏱️ Complexity:**  
 - Time: O(n)  
 - Space: O(n)
+
+### 2. Longest_Repeating_Character_Replacement
+- **File:** `Longest_Repeating_Character_Replacement.py`  
+- **Difficulty:** Medium  
+- **Technique:** Hashing , two Pointer , sliding window
+- **Data Structure:** Hashmap
+
+**💡 Idea:**  
+- check length of which substring to get using total item - max characters occurence > k
+- shrink and expand base on condition
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)

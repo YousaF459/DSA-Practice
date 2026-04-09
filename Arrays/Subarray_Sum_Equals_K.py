@@ -3,7 +3,7 @@
 # hashing , prefixsum 
 
 class Solution:
-    def subarraySum(self, nums: List[int], k: int) -> int:
+    def subarraySum(self, nums, k) :
         hashmap = {0: 1}
         prefixSum = 0
         count = 0

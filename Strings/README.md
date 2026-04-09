@@ -70,3 +70,20 @@ Key techniques used in this folder:
 **⏱️ Complexity:**  
 - Time: O(n²)  
 - Space: O(1)
+
+
+### 2. Valid_Palindrome_II
+- **File:** `Valid_Palindrome_II.py`  
+- **Difficulty:** Easy
+- **Technique:** Two Pointers
+- **Data Structure:** String  
+
+**💡 Idea:**  
+- Inputs = String with lower case letters and a character change limit
+- we have to check if string is a palindrome we can also del one character from string
+
+- technique - two pointers
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)

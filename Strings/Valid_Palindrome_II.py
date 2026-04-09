@@ -1,0 +1,41 @@
+# Inputs = String with lower case letters and a character change limit
+# we have to check if string is a palindrome we can also del one character from string
+
+# technique - two pointers
+
+
+class Solution:
+    def validPalindrome(self, s: str) -> bool:
+
+        def is_palindrome(l, r):
+            while l < r:
+                if s[l] != s[r]:
+                    return False
+                l += 1
+                r -= 1
+            return True
+
+        left, right = 0, len(s) - 1
+
+        while left < right:
+            if s[left] != s[right]:
+                # Try both possibilities
+                return is_palindrome(left + 1, right) or is_palindrome(left, right - 1)
+            left += 1
+            right -= 1
+
+        return True
+# Time Complexity = BigO(n)
+# Space Complexity = BigO(1)
+
+
+                        
+
+
+
+
+sol=Solution()
+s = "deeee"
+
+print(sol.validPalindrome(s))
+

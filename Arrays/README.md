@@ -119,3 +119,22 @@ Analyzing time & space complexity
 **⏱️ Complexity:**  
 - Time: O(n)  
 - Space: O(1)
+
+
+
+### 5.  Subarray_Sum_Equals_K
+- **File:** `Subarray_Sum_Equals_K.py`  
+- **Difficulty:** Medium  
+- **Technique:**  Hashing
+- **Data Structure:** Array  , Hashmap
+
+**💡 Idea:**  
+- get the prefix sum first
+- use formula prefixSum -k to check if that exist in hashmap
+- if it exist then increase count by value of hashmap prefixSum
+- if same value occurs twice increase count by +1 whatever value is there
+
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(n)

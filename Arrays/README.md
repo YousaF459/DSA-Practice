@@ -138,3 +138,26 @@ Analyzing time & space complexity
 **⏱️ Complexity:**  
 - Time: O(n)  
 - Space: O(n)
+
+
+
+
+
+### 5.  Fruit_Into_Baskets
+- **File:** `Fruit_Into_Baskets.py`  
+- **Difficulty:** Medium  
+- **Technique:**  Hashing, Two Pointers , Sliding Window
+- **Data Structure:** Array  , Hashmap
+
+**💡 Idea:**  
+- input - Array
+- output will be max subarray that contains only two fruits
+- technique used sliding window , hashing and two pointers
+- when more than 2 elements in hashmap start shrinking from left 
+- when we shrink from left we shrink until one elements count become 0
+- as there are only 2 elements before so only 2 unique will remain
+
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)

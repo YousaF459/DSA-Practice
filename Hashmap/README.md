@@ -58,7 +58,7 @@ Analyzing time & space complexity
 - Time: O(n)  
 - Space: O(n)
 
-### 2. Longest_Repeating_Character_Replacement
+### 3. Longest_Repeating_Character_Replacement
 - **File:** `Longest_Repeating_Character_Replacement.py`  
 - **Difficulty:** Medium  
 - **Technique:** Hashing , two Pointer , sliding window

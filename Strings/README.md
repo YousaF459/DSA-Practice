@@ -72,7 +72,7 @@ Key techniques used in this folder:
 - Space: O(1)
 
 
-### 2. Valid_Palindrome_II
+### 3. Valid_Palindrome_II
 - **File:** `Valid_Palindrome_II.py`  
 - **Difficulty:** Easy
 - **Technique:** Two Pointers

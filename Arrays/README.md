@@ -74,7 +74,7 @@ Analyzing time & space complexity
 - Time: O(n²)  
 - Space: O(n)
 
-### 3. MinimumSizeSubarraySum
+### 4. MinimumSizeSubarraySum
 - **File:** `MinimumSizeSubarraySum.py`  
 - **Difficulty:** Medium  
 - **Technique:** Two Pointers ,Sliding Window
@@ -90,7 +90,7 @@ Analyzing time & space complexity
 - Time: O(n)  
 - Space: O(1)
 
-### 4.  Single Number
+### 5.  Single Number
 - **File:** `Single_Number.py`  
 - **Difficulty:** Easy  
 - **Technique:** Two Pointers ,Sliding Window
@@ -105,7 +105,7 @@ Analyzing time & space complexity
 - Time: O(n log n)  
 - Space: O(1)
 
-### 4.  Single Number
+### 6.  Single Number
 - **File:** `Maximum_Average_Subarray_I.py`  
 - **Difficulty:** Medium  
 - **Technique:** Two Pointers ,Sliding Window
@@ -122,7 +122,7 @@ Analyzing time & space complexity
 
 
 
-### 5.  Subarray_Sum_Equals_K
+### 7.  Subarray_Sum_Equals_K
 - **File:** `Subarray_Sum_Equals_K.py`  
 - **Difficulty:** Medium  
 - **Technique:**  Hashing
@@ -143,7 +143,7 @@ Analyzing time & space complexity
 
 
 
-### 5.  Fruit_Into_Baskets
+### 8.  Fruit_Into_Baskets
 - **File:** `Fruit_Into_Baskets.py`  
 - **Difficulty:** Medium  
 - **Technique:**  Hashing, Two Pointers , Sliding Window
@@ -161,3 +161,24 @@ Analyzing time & space complexity
 **⏱️ Complexity:**  
 - Time: O(n)  
 - Space: O(1)
+
+
+
+### 9.  Two_Sum_II-Input_Array_Is_Sorted
+- **File:** `Two_Sum_II-Input_Array_Is_Sorted.py`  
+- **Difficulty:** Medium  
+- **Technique:**  Two Pointers
+- **Data Structure:** Array  
+
+**💡 Idea:**  
+- Technique = Two pointer
+- place left pointer at index 0 and right at alst index
+- calculate their sum
+- if sum == targer retunr index
+- if sum > target - decrement right pointer
+- if sum < target - increment left pointer
+
+
+**⏱️ Complexity:**  
+- Time Complexity - BigO(n)
+- Space Complexity - BigO(1)

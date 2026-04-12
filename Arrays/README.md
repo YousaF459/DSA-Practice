@@ -182,3 +182,46 @@ Analyzing time & space complexity
 **⏱️ Complexity:**  
 - Time Complexity - BigO(n)
 - Space Complexity - BigO(1)
+
+
+
+
+
+
+### 10.  Best Time to Buy and Sell Stock
+- **File:** `Best_Time_to_Buy_and_Sell_Stock.py`  
+- **Difficulty:** Easy  
+- **Technique:**  Two Pointers
+- **Data Structure:** Array  
+
+**💡 Idea:**  
+- two pointers
+- left and right pointers - left at start and right at one step forward
+- if right -left < 0 increment left by one step cause it means that was not the best price to
+- buy and right ++
+- if right - left > 0 move right forward
+- if rigth - left >0  store max
+
+
+**⏱️ Complexity:**  
+- Time Complexity - BigO(n)
+- Space Complexity - BigO(1)
+
+
+
+
+### 11.  Product_of_Array_Except_Self
+- **File:** `Product_of_Array_Except_Self.py`  
+- **Difficulty:** Medium  
+- **Technique:**  Prefix Sum
+- **Data Structure:** Array  
+
+**💡 Idea:**  
+- First get prefix Product from left to right and store in asnwer
+- get suffix product adn multiple with prefix product and store in answer
+
+
+**⏱️ Complexity:**  
+- Time Complexity - BigO(n)
+- Space Complexity - BigO(1)
+

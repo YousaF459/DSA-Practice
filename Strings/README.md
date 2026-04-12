@@ -87,3 +87,22 @@ Key techniques used in this folder:
 **⏱️ Complexity:**  
 - Time: O(n)  
 - Space: O(1)
+
+
+
+
+### 4. Permutation_in_String
+- **File:** `Permutation_in_String.py`  
+- **Difficulty:** Medium
+- **Technique:** Hashing , Sliding Window
+- **Data Structure:** String  
+
+**💡 Idea:**  
+- we need to check if s1 characters are present in subarray in s2
+- characters of s1 frequence in seleceted subarray of s2
+- make two hashmap one of s2 counter adn one of s2 subarray
+- if window counter length get bigger start shrinking from left
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)

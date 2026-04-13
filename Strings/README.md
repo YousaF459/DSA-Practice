@@ -106,3 +106,22 @@ Key techniques used in this folder:
 **⏱️ Complexity:**  
 - Time: O(n)  
 - Space: O(1)
+
+
+
+
+### 5. Sort_Characters_By_Frequency
+- **File:** `Sort_Characters_By_Frequency.py`  
+- **Difficulty:** Medium
+- **Technique:** Hashing 
+- **Data Structure:** String  
+
+**💡 Idea:**  
+- We can store characters frequency in hashmap
+- then we can sort it them in decreasing order
+- loop over it and multiple key with values
+- store it in string
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(n)

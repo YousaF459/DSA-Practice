@@ -225,3 +225,23 @@ Analyzing time & space complexity
 - Time Complexity - BigO(n)
 - Space Complexity - BigO(1)
 
+Move Zeroes
+
+### 11.  Move Zeroes
+- **File:** `Move_Zeroes.py`  
+- **Difficulty:** Easy  
+- **Technique:**  Two Pointers
+- **Data Structure:** Array  
+
+**💡 Idea:**  
+- input - Array Nums which contain digits
+- output all zeroes moved to end other must be inplace
+- Two Pointer - left adn right
+- if left ==0  and right != 0 left=right and right =0
+- if left==0 adn right ==0 right+=1
+- else jsut contine increment pointer
+
+
+**⏱️ Complexity:**  
+- Time Complexity - BigO(n)
+- Space Complexity - BigO(1)

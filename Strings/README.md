@@ -125,3 +125,24 @@ Key techniques used in this folder:
 **⏱️ Complexity:**  
 - Time: O(n)  
 - Space: O(n)
+
+
+Find_All_Anagrams_in_a_String
+
+
+### 6. Find_All_Anagrams_in_a_String
+- **File:** `Find_All_Anagrams_in_a_String.py`  
+- **Difficulty:** Medium
+- **Technique:** Sliding Window 
+- **Data Structure:** String  
+
+**💡 Idea:**  
+- input - Two String s and p
+- output array which contain start index of anagram of p in s
+- we use slidign window
+- we take a window check if occurence is sae as in p we append elft in array
+- when sldiign window get bigger we shrink else we expand
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(n)

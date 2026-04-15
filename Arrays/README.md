@@ -227,7 +227,7 @@ Analyzing time & space complexity
 
 Move Zeroes
 
-### 11.  Move Zeroes
+### 12.  Move Zeroes
 - **File:** `Move_Zeroes.py`  
 - **Difficulty:** Easy  
 - **Technique:**  Two Pointers
@@ -245,3 +245,25 @@ Move Zeroes
 **⏱️ Complexity:**  
 - Time Complexity - BigO(n)
 - Space Complexity - BigO(1)
+
+
+
+
+
+### 13.  Top_K_Frequent_Elements
+- **File:** `Top_K_Frequent_Elements.py`  
+- **Difficulty:** Medium  
+- **Technique:**  Hashing
+- **Data Structure:** Array,Hashmap  
+
+**💡 Idea:**  
+- Input - Array and a integer
+- Ouput Find k number of item with highest occurence
+- First store their occurence using hashmap
+- then sort the hasmap
+- then make a loop for k times
+- and get keys of k items from list of tuples
+
+**⏱️ Complexity:**  
+- Time Complexity - BigO(n log n)
+- Space Complexity - BigO(n)

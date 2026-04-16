@@ -43,20 +43,21 @@ def hashing(nums):
 
 ---
 
-### 1. Container With Most Water
-- **File:** `ContainerWithMostWater.py`  
-- **Difficulty:** Medium  
-- **Technique:** Two Pointers  
+### 1. Intersection of Two Arrays II
+- **File:** `Intersection_of_Two_Arrays_II.py`  
+- **Difficulty:** Easy  
+- **Pattern:** Hashing
 - **Data Structure:** Array  
 
 **💡 Idea:**  
-- Use two pointers (start & end)  
-- Calculate width using the difference of indices  
-- Height is determined by the **minimum of the two lines**  
-- Move the pointer pointing to the **smaller height**  
+- input - Two Arrays
+- Ouput - Array whihc contain common items from both arrays 
+- we make hashmap with occurence of from one array
+- we loop on secodn array adn check if it is in hashmap adn if yes we remove its count 
+- we chcek if count[num] > 0
 
 **⏱️ Complexity:**  
-- Time: O(n)  
-- Space: O(1)  
+- Time: O(n+m)  
+- Space: O(n)  
 
 ---

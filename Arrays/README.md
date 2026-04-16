@@ -267,3 +267,21 @@ Move Zeroes
 **⏱️ Complexity:**  
 - Time Complexity - BigO(n log n)
 - Space Complexity - BigO(n)
+
+
+
+### 14.  Reverse_String
+- **File:** `Reverse_String.py`  
+- **Difficulty:** Easy  
+- **Technique:**  Two Pointers
+- **Data Structure:** Array
+
+**💡 Idea:**  
+- input - array
+- Output - reverse array in place space complexity BigO(1)
+- left and right pointers -left at start adn right at end
+- just swap left and right  - until left becom equal to right
+
+**⏱️ Complexity:**  
+- Time Complexity - BigO(n)
+- Space Complexity - BigO(1)

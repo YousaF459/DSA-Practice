@@ -18,6 +18,7 @@
 
 ## 🧩 Template Code
 
+```python
 def sliding_window(nums):
     left = 0
     for right in range(len(nums)):
@@ -28,7 +29,7 @@ def sliding_window(nums):
 
         # update result
 
-
+```
 ---
 
 ## 📂 Problems Solved

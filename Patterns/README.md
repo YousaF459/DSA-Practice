@@ -30,8 +30,8 @@ Instead of focusing only on topics (like arrays or strings), this approach empha
 
 Each pattern has its own folder:
 
+```bash
 Patterns/
-│
 ├── Two_Pointers/
 ├── Sliding_Window/
 ├── Prefix_Sum/
@@ -39,8 +39,8 @@ Patterns/
 
 Inside each folder:
 
-* Solved problems
-* Pattern-specific README (explaining when & how to use it)
+Solved problems
+Pattern-specific README (explaining when & how to use it)
 
 ---
 

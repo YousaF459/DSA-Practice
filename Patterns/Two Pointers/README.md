@@ -47,20 +47,21 @@ def two_pointers(nums):
 
 ---
 
-### 1. Container With Most Water
-- **File:** `ContainerWithMostWater.py`  
-- **Difficulty:** Medium  
+### 1. Backspace_String_Compare
+- **File:** `Backspace_String_Compare.py`  
+- **Difficulty:** Easy  
 - **Technique:** Two Pointers  
-- **Data Structure:** Array  
+- **Data Structure:** String  
 
 **💡 Idea:**  
-- Use two pointers (start & end)  
-- Calculate width using the difference of indices  
-- Height is determined by the **minimum of the two lines**  
-- Move the pointer pointing to the **smaller height**  
+- Use Two Pointers
+- first make a function which checks if have to skip or not if not send the character which we are cehcking 
+- if the characters are equal then good else return False
+- if one of them i or j get bigger we return False
+ 
 
 **⏱️ Complexity:**  
-- Time: O(n)  
+- Time: O(n+m)  
 - Space: O(1)  
 
 ---

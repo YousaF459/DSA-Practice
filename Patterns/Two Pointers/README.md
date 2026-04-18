@@ -65,3 +65,47 @@ def two_pointers(nums):
 - Space: O(1)  
 
 ---
+
+
+
+### 2. Ransom_Note
+- **File:** `Ransom_Note.py`  
+- **Difficulty:** Easy  
+- **Technique:** Two Pointers  
+- **Data Structure:** String  
+
+**💡 Idea:**  
+
+- Two String inputs - ransomNote "aa" adn magazine  "aab"
+- ouput we have to cehck if we can make ransomNote string from magazine Letters
+- we can just make a frequencey hashmap of magazine
+- then make a loop on ransomNote to check if all characters are available in magazine hashmap
+ 
+
+**⏱️ Complexity:**  
+- Time: O(n+m)  
+- Space: O(1)  
+
+---
+
+
+### 2. Sort_Array_By_Parity
+- **File:** `Sort_Array_By_Parity.py`  
+- **Difficulty:** Easy  
+- **Technique:** Two Pointers  
+- **Data Structure:** String  
+
+**💡 Idea:**  
+- input - Array of integers
+- ouput - put all even on start and odd at end their order does not matter
+- initilaize two pointers left adn right
+- left pointer is use to write the even numbers at start
+- Start a loop 
+- if number is even swap left and right pointer values
+ 
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)  
+
+---

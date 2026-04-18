@@ -61,3 +61,26 @@ def sliding_window(nums):
 - Space: O(1)  
 
 ---
+
+### 2. Number_of_Substrings_Containing_All_Three_Characters
+- **File:** `Number_of_Substrings_Containing_All_Three_Characters.py`  
+- **Difficulty:** Medium  
+- **Pattern:** Sliding window With Hashing 
+- **Data Structure:** Hashmap  
+
+**💡 Idea:**  
+        
+- Input - String
+- Output - Count of subtring which contain all three a,b,c
+- We have to create a sliding window of substrign which contain all three a,b,c
+- after that we use formula to add remainign length of strign cause all of them will on auto contain a,b,c
+- formula len(s) - right - right is the index where when we get a,b,c in substring
+- when we use the formula we shrink from left
+- and keep expanding after we get substrign with occurecne of all a,b,c
+  
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)  
+
+---

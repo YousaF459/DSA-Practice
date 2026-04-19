@@ -84,3 +84,27 @@ def sliding_window(nums):
 - Space: O(1)  
 
 ---
+
+
+### 3. Longest_Subarray_of_1's_After_Deleting_One_Element
+- **File:** `Longest_Subarray_of_1's_After_Deleting_One_Element.py`  
+- **Difficulty:** Medium  
+- **Pattern:** Sliding window
+- **Data Structure:** Hashmap  
+
+**💡 Idea:**  
+        
+- input - Array of binary Number
+ output - find largest substring by deleting 1 number from array if zero del taht else 1
+- we have to make a valid sliding window in which we have only 1 zero included
+ when sliding window will get invalid measn we reach second zero
+- we will have to shrink the window when more than 1 zero in substrin
+ we get length of substring with right-left+1
+- we decrement 1 from max_len
+        
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)  
+
+---

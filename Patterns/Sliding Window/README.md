@@ -108,3 +108,28 @@ def sliding_window(nums):
 - Space: O(1)  
 
 ---
+
+
+Count_Number_of_Nice_Subarrays
+
+### 4. Count_Number_of_Nice_Subarrays
+- **File:** `Count_Number_of_Nice_Subarrays.py`  
+- **Difficulty:** Medium  
+- **Pattern:** Sliding window
+- **Data Structure:** Array  
+
+**💡 Idea:**  
+        
+- input - Array of integer and a integer k 
+- ouput - return count of subarray with k odd number in it
+- we will use slidign window using three pointers -left , middle , right
+- when we reach k odd number we move forward middle so we get substring with odd numerb from left side
+- so now even when we move right we have account of left substring and until we reach next odd number every time we move right we add middle-left+1
+- if we reach odd number on right we move left pointer forward until we reach odd number and then also put middle on left pointer
+        
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)  
+
+---

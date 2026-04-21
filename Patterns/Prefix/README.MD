@@ -40,20 +40,20 @@ def prefix_sum(nums):
 
 ---
 
-### 1. Container With Most Water
-- **File:** `ContainerWithMostWater.py`  
+### 1. Minimum Number of Operations to Move All Balls to Each Box
+- **File:** `Minimum_Number_of_Operations_to_Move_All_Balls_to_Each_Box.py`  
 - **Difficulty:** Medium  
-- **Technique:** Two Pointers  
-- **Data Structure:** Array  
+- **Technique:** Prefix 
+- **Data Structure:** String  
 
 **💡 Idea:**  
-- Use two pointers (start & end)  
-- Calculate width using the difference of indices  
-- Height is determined by the **minimum of the two lines**  
-- Move the pointer pointing to the **smaller height**  
+- input - String og binaries
+- ouput - array of number of operations to move balls into that specific index
+- loop from left to left keep adding balls adn moves prefix
+- loop from right to left keep adding balles from right to left suffix
 
 **⏱️ Complexity:**  
 - Time: O(n)  
-- Space: O(1)  
+- Space: O(n)  
 
 ---

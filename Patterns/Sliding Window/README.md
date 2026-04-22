@@ -110,8 +110,6 @@ def sliding_window(nums):
 ---
 
 
-Count_Number_of_Nice_Subarrays
-
 ### 4. Count_Number_of_Nice_Subarrays
 - **File:** `Count_Number_of_Nice_Subarrays.py`  
 - **Difficulty:** Medium  
@@ -131,5 +129,53 @@ Count_Number_of_Nice_Subarrays
 **⏱️ Complexity:**  
 - Time: O(n)  
 - Space: O(1)  
+
+---
+
+
+### 5. Replace_the_Substring_for_Balanced_String
+- **File:** `Replace_the_Substring_for_Balanced_String.py`  
+- **Difficulty:** Medium  
+- **Pattern:** Sliding window,Hashing
+- **Data Structure:** Array  
+
+**💡 Idea:**  
+        
+- input - String
+- output - minmum length substring which we can repalce with substring to make  S balanced
+- make a hashmap to check what is extra - hashmap need={}
+- window hashmap to check count if current sliding window has extra characters we have in need hashmap
+- get the length when current window has all the characters we need
+        
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)  
+
+---
+
+
+### 5. Maximum_Erasure_Value
+- **File:** `Maximum_Erasure_Value.py`  
+- **Difficulty:** Medium  
+- **Pattern:** Sliding window,Hashing
+- **Data Structure:** Array  
+
+**💡 Idea:**  
+        
+
+- input - integer array
+- output - maximum sum of unique substring numbers
+- we ahve to maintain a sliding window of unique elemetns
+- if sldiign window get a duplicate elemten we have to shrink from left till we remove duplicate element
+- formula - we expand till we find a duplicate
+- 1-when duplicate is found we expand till we remove duplicate which was already in hashmap
+- 2- while array[right] in hashmap : we keep shrinking
+- 3- we add array[right] in hashmap after we have shrink from left to reach a valid window
+        
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(n)  
 
 ---

@@ -85,6 +85,17 @@ Hashset , dynamiic programming style growth or trie sometimes
 2-When bigger string depends on smaller prefix existing:
 Use set of valid words + process shortest first
 """
+-----
+
+**Notes:** 
+- Remember :- if a biiger string is valid only when its smaller prefix exist 
+- use -> Hashset + Sort + build Forward
+- Trigger Words :-
+- "Every Prefix Exist","build one character at a time","all previous forms must exist"
+- Instant Pattern recognition ;-
+- "Smaller state validated bigger state"
+- use Set for O(1) lookup , sort so smaller words come first
+- Core Formula ;- if word[:-1] in valid: current word becomes valid
 
 
 **⏱️ Complexity:**  

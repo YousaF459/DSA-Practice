@@ -89,7 +89,7 @@ def two_pointers(nums):
 ---
 
 
-### 2. Sort_Array_By_Parity
+### 3. Sort_Array_By_Parity
 - **File:** `Sort_Array_By_Parity.py`  
 - **Difficulty:** Easy  
 - **Technique:** Two Pointers  
@@ -106,6 +106,31 @@ def two_pointers(nums):
 
 **⏱️ Complexity:**  
 - Time: O(n)  
+- Space: O(1)  
+
+---
+
+
+
+
+### 4. Number_of_Matching_Subsequences
+- **File:** `Number_of_Matching_Subsequences.py`  
+- **Difficulty:** Medium  
+- **Technique:** Two Pointers  
+- **Formula:** if s[i] == word[j] then j+=1 
+
+**💡 Idea:**  
+
+- Input a String and an array of strings
+- Ouput - number of words in array that are subsequence of string
+- solution Steps
+- we have to check for every array word if its subsequnece of string S.
+- so we initialize variable j if word character and string s character amtch we increment varaible j.
+- then we cehck if len varaible j is equal to length of word then its a subsequence.
+- so we are using formula if s[i] == word[j] increment j
+
+**⏱️ Complexity:**  
+- Time: O(n*m)  
 - Space: O(1)  
 
 ---

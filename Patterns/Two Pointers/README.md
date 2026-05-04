@@ -134,3 +134,89 @@ def two_pointers(nums):
 - Space: O(1)  
 
 ---
+
+
+### 5. Is_Subsequence
+- **File:** `Is_Subsequence.py`  
+- **Difficulty:** Medium  
+- **Technique:** Two Pointers  
+- **Formula:** if s[i] == t[j] then j+=1 then check j == len(subsequence)
+
+**💡 Idea:**  
+
+- Solutions:-
+- we define and initilize two vraible i and j
+- i scan main string
+- j scan subsequecne string
+- i increment every time adn j increment when match happens
+- check j if its equal to len(subsequnce) then is subsequence else not
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)  
+
+---
+
+
+
+
+### 6. Longest_Word_in_Dictionary_through_Deleting
+- **File:** `Longest_Word_in_Dictionary_through_Deleting.py`  
+- **Difficulty:** Medium  
+- **Technique:** Two Pointers  
+- **Formula:** if s[i] == t[j] then j+=1 then check j == len(subsequence)  if word < longest word then longest word =word
+
+**💡 Idea:**  
+
+- Solutions:-
+- we define and initilize two vraible i and j
+- i scan main string
+- j scan subsequecne string
+- i increment every time adn j increment when match happens
+- check j if its equal to len(subsequnce) then is subsequence else not
+
+**⏱️ Complexity:**  
+- Time: O(n*m)  
+- Space: O(1)  
+
+---
+
+### 7. Append_Characters_to_String_to_Make_Subsequencepy
+- **File:** `Append_Characters_to_String_to_Make_Subsequencepy.py`  
+- **Difficulty:** Medium  
+- **Technique:** Two Pointers  
+- **Formula:** if s[i] == t[j] then j+=1 then check len(t)-j
+
+**💡 Idea:**  
+
+- Solutions:-
+- we define and initilize two variable i and j
+- i scan main string
+- j scan subsequecne string
+- i increment every time adn j increment when match happens
+- check len(t)-j
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)  
+
+---
+
+
+### 8. Long_Pressed_Name
+- **File:** `Long_Pressed_Name.py`  
+- **Difficulty:** Medium  
+- **Technique:** Two Pointers  
+- **Formula:** while j < len(typed) we check if both are euqal then i and j +=1 elif check if j == j -1 then j+=1
+
+**💡 Idea:**  
+
+- Solutions:-
+- we define and initilize two variable i and j
+- i scan name string
+- j scan typed string
+- while j < len(typed) we check if both are euqal then i and j +=1 elif check if j == j -1 then j+=1
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)  

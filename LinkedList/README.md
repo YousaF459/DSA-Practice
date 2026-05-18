@@ -68,3 +68,84 @@ To build strong understanding of linked list operations and prepare for coding i
 - Each problem is solved in Python.
 - Focus is on understanding logic, not just memorization.
 - Solutions are written in a clean and interview-friendly way.
+
+---
+
+
+## 📂 Problems Solved
+
+---
+
+
+### 1. Middle_of_the_Linked_List
+- **File:** `Middle_of_the_Linked_List.py`  
+- **Difficulty:** Easy  
+- **Pattern:** Linked List
+- **Pattern:**  TWO pointers - Fast and Slow
+
+**💡 Idea:**  
+- Two Pointer Will be iterating slow and fast
+- move fast two step adn slow one step 
+- when fast will reach end slow will be in middle
+
+
+**💡Template**
+
+TEMPLATE :-
+
+slow=head
+fast=head
+
+while fast and fast.next:
+    slow=slow.next
+    fast=fast.next.next
+
+
+
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)  
+
+---
+
+
+### 1. Linked List Cycle
+- **File:** `Linked List Cycle.py`  
+- **Difficulty:** Easy  
+- **Pattern:** Linked List
+- **Pattern:**  TWO pointers - Fast and Slow
+
+**💡 Idea:**  
+- Two Pointer Will be iterating slow and fast
+- move fast two step adn slow one step 
+- like in a track one runner is running slow and other is running fast so eventualy fast will meet slower again
+- so fast will meet slow again if slow==fast then True
+
+
+**💡Template**
+
+TEMPLATE :-
+
+slow=head
+fast=head
+
+while fast and fast.next:
+    slow=slow.next
+    fast=fast.next.next
+
+
+
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)  
+
+---
+
+
+
+
+
+
+

@@ -110,7 +110,7 @@ while fast and fast.next:
 ---
 
 
-### 1. Linked List Cycle
+### 2. Linked List Cycle
 - **File:** `Linked List Cycle.py`  
 - **Difficulty:** Easy  
 - **Pattern:** Linked List
@@ -142,6 +142,135 @@ while fast and fast.next:
 - Space: O(1)  
 
 ---
+
+
+
+### 3. Merge Two Sorted Lists
+- **File:** `Merge_Two_Sorted_Lists.py`  
+- **Difficulty:** Easy  
+- **Pattern:** Linked List
+- **Pattern:**  two Pointer
+
+**💡 Idea:**  
+- we initilize a dummy node and a tail pointer from where we start so we can point to head.
+- we compare both value which one is smaller we point tail to that.
+- at last tail will be pointing to end
+- if some elemtnet of one list remain we connect tail to that.
+
+
+**💡Template**
+
+TEMPLATE :-
+
+while list1 and list2:
+            if list1.val <= list2.val:
+                tail.next=list1
+                list1=list1.next
+            else:
+                tail.next=list2
+                list2=list2.next
+            tail=tail.next
+        
+        if list1:
+            tail.next=list1
+
+
+        else:
+            tail.next=list2
+
+
+
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)  
+
+---
+
+
+### 4. Remove Duplicates from Sorted List
+- **File:** `Remove_Duplicates_from_Sorted_List.py`  
+- **Difficulty:** Easy  
+- **Pattern:** Linked List
+- **Pattern:**  two Pointer
+
+**💡 Idea:**  
+- we initilize a pointer to head named currentPointer
+- we check currentNode.val with curentNode.next.val
+- if val is same just remove the link between them
+
+
+**💡Template**
+
+TEMPLATE :-
+
+ currentNode=head
+
+        while currentNode and currentNode.next:
+
+            if currentNode.val==currentNode.next.val:
+                currentNode.next=currentNode.next.next
+            else:
+                currentNode=currentNode.next
+
+
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)  
+
+---
+
+
+
+### 5. Palindrome_Linked_List
+- **File:** `234_Palindrome_Linked_List.py`  
+- **Difficulty:** Easy  
+- **Pattern:** Linked List
+- **Pattern:**  Fast adn Slow Pointer and Reverse Linked List
+
+**💡 Idea:**  
+- First we have to fidn the middle of linked List using Fast and slow pointer
+- then we reverse the linked from middle till end
+- now we can iterate and compare
+
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)  
+
+---
+
+
+### 6. Remove_Nth_Node_From_End _of_List
+- **File:** `Remove_Nth_Node_From_End _of_List.py`  
+- **Difficulty:** Medium  
+- **Data Strucutre:** Linked List
+- **Pattern:**  Fast adn Slow Pointer and create a gap with fast additional move at n+1
+
+**💡 Idea:**  
+- we have to create a gap between fast and slow pointer with fast additionaly placing at n+1
+- then when fast will reach end slow will be exactl at before deleting node 
+
+
+**💡Template**
+
+TEMPLATE :-
+
+for _ in range(n+1):
+            fast=fast.next
+
+
+
+**⏱️ Complexity:**  
+- Time: O(n)  
+- Space: O(1)  
+
+---
+
+
+
+
 
 
 

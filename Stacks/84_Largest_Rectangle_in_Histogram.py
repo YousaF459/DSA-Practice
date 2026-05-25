@@ -25,6 +25,47 @@ class Solution:
 
         #OPTIMIZED
         
+        stack=[]
+        n=len(heights)
+        max_area=0
+
+
+        for current_item in range(n):
+
+            while stack and heights[stack[-1]] > heights[current_item]:
+                element=stack.pop()
+
+                ns=current_item
+                ps= stack[-1] if stack else -1
+
+                width=ns-ps-1 
+
+                length=heights[element]
+                
+                area=width*length
+
+                max_area=max(max_area,area)
+
+            stack.append(current_item)
+
+        while stack:
+            element=stack.pop()
+            ns=n
+            ps= stack[-1] if stack else -1
+
+            width=ns-ps-1 
+            length=heights[element]
+            area=width*length
+
+            max_area=max(max_area,area)
+
+        return max_area
+
+
+# Time Comlexity - BigO(n)
+# Space Comlexity - BigO(n)
+
+
 
 
 

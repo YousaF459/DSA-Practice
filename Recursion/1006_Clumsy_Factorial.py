@@ -14,7 +14,6 @@ class Solution:
                     op=op-1
 
             elif op == 1:  # /
-                # correct truncate toward zero
                 top = stack[-1]
                 stack[-1] = int(top / x)
 
